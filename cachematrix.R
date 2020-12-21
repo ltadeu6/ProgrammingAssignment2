@@ -4,7 +4,7 @@
 ## A function to create a vector of functions to save the matrix and this inverse
 
 makeCacheMatrix <- function(x = matrix()) {
-  inverse <- NULL
+        inverse <- NULL
         set <- function(y) {
                 x <<- y
                 inverse <<- NULL
